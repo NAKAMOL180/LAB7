@@ -11,7 +11,7 @@ int main(){
 		P[i] = 2*i+1;
 		i++;
 	}
-		cout << "here ";
+		cout << "Please input k: ";
 		cin >> k;
 		if ( k>0 )
 	{
@@ -26,7 +26,7 @@ int main(){
 				i = i+1;
 			}
 		}
-		cout << result;
+		cout << "Result = " << result;
 	}
 	else
 	{
